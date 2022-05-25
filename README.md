@@ -1,1 +1,1 @@
-# React-Native---Sensor-de-Movimento
+# React-Native-Sensor-de-Movimento
