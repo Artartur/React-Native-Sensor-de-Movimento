@@ -20,7 +20,7 @@ const App = () =>{
   <View style={toggle ? styles.containerLight : styles.container}>
     <TouchableOpacity onPress={handleChangeToggle}>
     <Image style = {toggle ? styles.lightingOn : styles.lightingOff} source={toggle ? require('./assets/eco-light.png') : require('./assets/eco-light-off.png')}/>
-    {/* <Image style = {styles.dioLogo} source={toggle ? require('./assets/logo-dio.png') : require('./assets/logo-dio-white.png')}/> */}
+    <Image style = {styles.dioLogo} source={toggle ? require('./assets/logo-dio.png') : require('./assets/logo-dio-white.png')}/> 
     </TouchableOpacity>
     </View>
     
